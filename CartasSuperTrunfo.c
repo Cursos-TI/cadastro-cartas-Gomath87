@@ -119,7 +119,8 @@ int main() {
   printf("PIB per Capita: Carta 1 venceu (%d)\n", resultadoPibCapita);
   printf("Super Poder: Carta 1 venceu (%d)\n", resultadoSuperPoder);
   printf("\n");
-  
+
+  // Estrutura If e Else (Estrutura de decisão composta)
   if (populacao1 > populacao2) {
       // Se a condição acima for verdadeira, executa essa linha
       printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
