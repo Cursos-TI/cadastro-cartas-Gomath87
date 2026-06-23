@@ -118,6 +118,20 @@ int main() {
   printf("Densidade Populacional: Carta 1 venceu (%d)\n", resultadoDensidade);
   printf("PIB per Capita: Carta 1 venceu (%d)\n", resultadoPibCapita);
   printf("Super Poder: Carta 1 venceu (%d)\n", resultadoSuperPoder);
+  printf("\n");
+  
+  if (populacao1 > populacao2) {
+      // Se a condição acima for verdadeira, executa essa linha
+      printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
+  } 
+  else if (populacao2 > populacao1) {
+      // Se a primeira for falsa, testa essa. Se for verdadeira, executa essa linha
+      printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+  } 
+  else {
+      // Se nenhuma das duas acima for verdadeira (ou seja, são iguais)
+      printf("Resultado: Empate!\n");
+  }
 
 return 0;
 } 
